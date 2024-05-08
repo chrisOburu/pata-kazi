@@ -7,16 +7,50 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Home page styling */
+.hero {
+  display:flex;
+  height: 100vh;
+  background-image: url('./components/backgroundimage.webp');
+  background-size: 1200px;
+  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.6)
+}
+
+.home {
+display: flex;
+flex-direction: column;
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+justify-content:center;
+align-items: center;
+color: white;
+}
+
+.home h1 {
+  font-size: 56px;
+  font-weight: bolder;
+}
+
+.home p {
+  font-size: 22px;
+  margin: 15 0;
+  max-width: 550px;
+  letter-spacing: 2px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 
 /* Navbar styles */
 .navbar {
   background-color: #333;
   color: #fff;
   padding: 1rem;
+  backdrop-filter: blur(10px); 
 }
 
 .navbar ul {
@@ -31,11 +65,20 @@ code {
 .navbar a {
   text-decoration: none;
   color: #fff;
+  font-style:oblique;
 }
 
 .navbar a:hover {
   text-decoration: underline;
 }
+/* 
+.job-list {
+  background-color: #333;
+}
+
+.find-work {
+  background-color: #333;
+} */
 
 
 /* Styles for the job listing cards */

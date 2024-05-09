@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/pata-kazi/static/css/main.f1a20152.css",
+    "main.js": "/pata-kazi/static/js/main.8df00476.js",
+    "static/media/backgroundimage.webp": "/pata-kazi/static/media/backgroundimage.1defc5a1a1770c831943.webp",
+    "index.html": "/pata-kazi/index.html",
+    "main.f1a20152.css.map": "/pata-kazi/static/css/main.f1a20152.css.map",
+    "main.8df00476.js.map": "/pata-kazi/static/js/main.8df00476.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1a20152.css",
+    "static/js/main.8df00476.js"
+  ]
+}
